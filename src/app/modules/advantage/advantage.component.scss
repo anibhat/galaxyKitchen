@@ -1,0 +1,61 @@
+.awards h2,
+.inner-advantage h2 {
+	font-weight: lighter;
+	text-align: center
+}
+.advantage-holder {
+	background: #f1f1f1;
+	padding: 70px 30px 30px;
+	position: relative;
+	height: 430px;
+	margin-bottom: 120px
+}
+
+.advantage-holder img {
+	display: block;
+	position: absolute;
+	top: -60px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 120px
+}
+
+.advantage-holder p {
+	margin-bottom: 25px;
+	font-size: 14px
+}
+
+.advantage-holder p a {
+	background: #00ABD6;
+	color: #fff;
+	padding: 5px 10px;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	display: block;
+	position: absolute;
+	left: 25px;
+	bottom: 25px
+}
+
+.advantage-inner-pages {
+	padding: 60px 0
+}
+
+.advantage-inner-pages img {
+	display: block;
+	margin-bottom: 30px
+}
+
+.advantage-inner-pages h1 {
+	color: #00ABD6;
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-weight: lighter
+}
+
+.advantage-inner-pages h2 {
+	font-size: 25px;
+	font-weight: lighter
+}

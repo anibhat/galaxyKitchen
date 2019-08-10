@@ -1,0 +1,39 @@
+<nav id="sidebar" class="position-relative">
+  <div class="vertical-height">
+  <div class="sidebar-header">
+    <h3>LP</h3>
+    <strong>Ecom</strong>
+  </div>
+  <span id="sidebarCollapse" class="slidebar-icon slidebar-position">
+    <i class="fa fa-times" aria-hidden="true"></i>
+  </span>
+  <ul class="">
+    <li *ngFor="let level1 of navData">
+      <div class="nav-list-dropdown" [ngClass]="[level1.isOpen ? 'level-active' : '']"><span>{{level1.text}}</span><i class="menu-toggle-icon" (click)="showContent(level1)" [ngClass]="[level1.isOpen ? 'fa fa-minus' : 'fa fa-plus']"></i></div>
+      <ul [hidden]="!level1.isOpen">
+        <li *ngFor="let level2 of level1.children">
+          <a class="anchor-link" [routerLink]="level2.route">{{level2.text}}</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <!-- <ul class="list-unstyled components">
+    <li><a routerLink="/register/test">Test Component</a></li>
+    <li><a routerLink="/webstore/organization">Web store - organization</a></li>
+    <li><a routerLink="/webstore/user-mgmt">Web store - User Mgmt</a></li>
+    <li><a routerLink="/adminPannel/organization">Admin Pannel - organization</a></li>
+    <li><a routerLink="/adminPannel/user-mgmt">Admin Pannel - User Mgmt</a></li>
+  </ul> -->
+
+  <!-- <ul class="list-unstyled components">
+      <li *ngFor="let level1 of navData">
+        <a>{{item.text}}</a>
+        <ul class="collapse list-unstyled">
+          <li *ngFor="let level2 of level1.children">
+            <a [routerLink]="level2.route">{{level2.text}}</a>
+          </li>
+        </ul>
+      </li>
+    </ul> -->
+</div>
+</nav>

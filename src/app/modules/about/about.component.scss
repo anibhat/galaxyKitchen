@@ -1,0 +1,56 @@
+.about-products .col-md-3 {
+	position: relative;
+	padding: 0
+}
+.about-products .col-md-3 .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, .6);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear
+}
+
+.about-products .col-md-3:hover .overlay {
+	background: rgba(0, 0, 0, .2)
+}
+
+.about-products .col-md-3 .overlay h3 a {
+	color: #fff;
+	display: block;
+	margin-top: 85px
+}
+
+.about-products .col-md-3 .overlay img {
+	display: block;
+	margin: auto
+}
+
+.about-products .col-md-3 .overlay h3 a:hover {
+	text-decoration: none
+}
+
+.about-c div {
+	padding: 0
+}
+
+.about {
+	padding-bottom: 50px
+}
+
+.about h1 {
+	color: #00ABD6;
+	font-size: 30px;
+	line-height: 1.2em;
+	margin: 40px 0
+}
+
+.about p {
+	margin-bottom: 20px;
+	font-size: 16px
+}

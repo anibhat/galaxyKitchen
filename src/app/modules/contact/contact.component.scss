@@ -1,0 +1,96 @@
+#contact h2 {
+	display: block;
+ padding: 0 0 10px 0;
+    margin: 0 0 40px 0;
+	position: relative;
+	text-align: center;
+	display: block;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 3.8rem;
+	line-height: 1.375;
+	color: #fff;
+	background: url(/assets/images/boder-b.jpg) no-repeat center bottom;
+}
+.heading p {
+  margin: 0 0 50px 0;
+  line-height: 30px;
+  font-size: 16px;
+}
+#contact p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	line-height: 1.8;
+	color:#fff;
+	font-weight: 500;
+}
+
+.contact-us {
+	background: url(/assets/images/contact-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding:85px 0 100px 0;
+}
+.contact-us p {
+	color:#fff;
+	font-size:16px;
+	letter-spacing:.5px
+}
+.form-control {
+	background-color: transparent;
+	border-color: rgba(255, 255, 255, .4);
+	height: 50px;
+	border-radius: 0;
+	box-shadow: none;
+}
+textarea.form-control {
+	min-height:150px;
+	resize:none;
+}
+.form-group {
+	margin-bottom: 30px;
+}
+.contact-info p {
+	margin:-5px 0 0 0;
+	padding:0;
+	font-size:14px!important;
+}
+ul.address {
+	margin-top: 30px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.contact-info ul li {
+	color:#fff
+}
+.contact-info ul li {
+	margin-bottom: 8px;
+}
+.contact-info ul li a {
+	color:#fff;
+}
+.contact-info ul li a:hover {
+	color:#feca3e;
+}
+ul.address .fa {
+	font-size:18px;
+	width:25px
+}
+
+.submit-bt2 {
+  border: 2px solid #fecb38;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: normal;
+  padding: 14px 30px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background: none!important;
+}
+.submit-bt2:hover {
+  border: 2px solid #fecb38;
+  background: #fecb38!important;
+  color: #000!important;
+}

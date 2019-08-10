@@ -1,0 +1,320 @@
+
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+.video {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #fff
+}
+.video-content {
+	padding-left: 130px
+}
+.video h1 {
+	color: #ffae00;
+	font-size: 30px;
+	line-height: 1.1em;
+	font-weight: 100;
+	margin-top: 0
+}
+
+.video img {
+	display: block;
+	margin: auto
+}
+
+.advantage {
+	background-color: #222222;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #fff;
+	text-align: center
+}
+
+.advantage h2 {
+	text-transform: uppercase;
+	font-size: 50px;
+	margin: 0 0 20px;
+	font-weight: lighter
+}
+
+.advantage h2 a {
+	color: #FFF
+}
+
+.advantage h2 a:hover {
+	color: #999;
+	text-decoration: none
+}
+
+.advantage img {
+	display: block;
+	height: 65px;
+	margin: 20px auto
+}
+
+.products {
+	height: 89.5%;
+	overflow: hidden
+}
+
+.products .row div {
+	padding: 0;
+	position: relative
+}
+
+.products .row div .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, .7);
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease
+}
+
+.product-heading-box,
+.product-heading-box a {
+	-webkit-transition: all .5s ease;
+	text-align: center
+}
+
+.product-heading-box {
+	top: 30.5%;
+	width: 100%;
+	padding: 40px 0!important;
+	transition: all .5s ease
+}
+
+.product-heading-box h3 {
+	font-size: 40px;
+	color: #fff;
+	margin: 0
+}
+
+.product-heading-box img {
+	display: block;
+	margin: 0 auto 10px
+}
+
+.product-heading-box a {
+	color: #fff;
+	padding: 7px 45px;
+	border: 1px solid #fff;
+	display: inline-block;
+	transition: all .5s ease
+}
+
+.product-heading-box a:hover {
+	text-decoration: none;
+	background-color: #434242;
+	border-color: #434242
+}
+
+.products .row div:hover .overlay {
+	background-color: rgba(0, 0, 0, 0)
+}
+
+.products .row div:hover .overlay .product-heading-box {
+	background-color: #00ABD6
+}
+
+.our-designers {
+	background-color: #727271;
+	padding-top: 30px;
+	padding-bottom: 30px
+}
+
+.our-designers h2 {
+	margin: 0!important;
+	text-align: center;
+	color: #fff;
+	font-size: 40px
+}
+
+.our-designers-row-1 .row div,
+.our-designers-row-2 .row div {
+	padding: 0;
+	height: 500px;
+	overflow: hidden
+}
+
+.m-designer,
+.our-designers-row-1 .row div:last-child,
+.our-designers-row-2 .row div:first-child {
+	background-color: #434242;
+	height: 500px;
+	padding: 0 100px;
+	color: #fff;
+	text-align: center
+}
+
+.m-designer h3,
+.our-designers-row-1 .row div:last-child h3,
+.our-designers-row-2 .row div:first-child h3 {
+	font-size: 40px;
+	margin: 180px 0 0;
+	color: #00ABD6
+}
+
+.franchise {
+	height: 945px;
+	background-image: url(/assets/images/franchise-bg.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+
+.franchise img {
+	display: block;
+	margin: 250px auto auto;
+	width: 35%
+}
+
+/* ------------------------ Bootstrap Modal CSS --------------------------- */
+
+//
+// Modals
+// --------------------------------------------------
+
+// .modal-open      - body class for killing the scroll
+// .modal           - container to scroll within
+// .modal-dialog    - positioning shell for the actual modal
+// .modal-content   - actual modal w/ bg and corners and shit
+
+// Kill the scroll on the body
+.modal-open {
+  overflow: hidden;
+}
+
+// Container that the modal scrolls within
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+// Shell div to position the modal with bottom padding
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+
+// Actual modal
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+
+// Modal background
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+// Modal header
+// Top section of the modal w/ title and dismiss
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+}
+// Close icon
+.modal-header .close {
+  margin-top: -2px;
+  margin: 0;
+  opacity: 0.7;
+  font-size: 30px;
+}
+
+// Title text within header
+.modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+
+// Modal body
+// Where all modal content resides (sibling of .modal-header and .modal-footer)
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
+
+// Measure scrollbar width for padding body during modal show/hide
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+// Scale up the modal
+@media (min-width: 768px) {
+  // Automatically set modal's width for larger viewports
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+
+  // Modal sizes
+  // .modal-sm { width: @modal-sm; }
+}
+
+/*
+@media (min-width: @screen-md-min) {
+  .modal-lg { width: @modal-lg; }
+}
+*/
